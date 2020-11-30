@@ -1,0 +1,1 @@
+export { hooksBasicsRoutes } from './basics';

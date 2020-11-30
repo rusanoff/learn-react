@@ -6,15 +6,7 @@ import {
   RouteProps,
 } from 'react-router-dom';
 import { MainPage } from '../components/MainPage';
-import {
-  UseCallback,
-  UseContext,
-  UseEffect,
-  UseMemo,
-  UseReducer,
-  UseRef,
-  UseState,
-} from '../modules/react-hooks';
+import { hooksBasicsRoutes } from './react-hooks';
 
 const routes: RouteProps[] = [
   {
@@ -22,34 +14,7 @@ const routes: RouteProps[] = [
     component: MainPage,
     exact: true,
   },
-  {
-    path: '/hooks/use-state',
-    component: UseState,
-  },
-  {
-    path: '/hooks/use-effect',
-    component: UseEffect,
-  },
-  {
-    path: '/hooks/use-ref',
-    component: UseRef,
-  },
-  {
-    path: '/hooks/use-memo',
-    component: UseMemo,
-  },
-  {
-    path: '/hooks/use-callback',
-    component: UseCallback,
-  },
-  {
-    path: '/hooks/use-context',
-    component: UseContext,
-  },
-  {
-    path: '/hooks/use-reducer',
-    component: UseReducer,
-  },
+  ...hooksBasicsRoutes,
 ];
 
 export const Routes: React.FC = () => {
