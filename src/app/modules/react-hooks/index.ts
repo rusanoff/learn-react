@@ -8,3 +8,7 @@ export {
   UseReducer,
   UseCustom,
 } from './basics';
+
+export {
+  UseGlobalStateExample
+} from './custom';
