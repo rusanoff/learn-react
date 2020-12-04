@@ -10,5 +10,6 @@ export {
 } from './basics';
 
 export {
-  UseGlobalStateExample
+  UseGlobalStateExample,
+  UseNamedReducerExample,
 } from './custom';

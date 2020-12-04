@@ -1,0 +1,1 @@
+export { UseNamedReducerExample } from './UseNamedReducerExample';
