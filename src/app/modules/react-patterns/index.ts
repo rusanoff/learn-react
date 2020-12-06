@@ -1,0 +1,1 @@
+export { HighOrderComponentExample } from './HighOrderComponent';
