@@ -6,3 +6,4 @@ export { UseCallback } from './UseCallback';
 export { UseContext } from './UseContext';
 export { UseReducer } from './UseReducer';
 export { UseCustom } from './UseCustom';
+export { UseLayoutEffect } from './UseLayoutEffect';

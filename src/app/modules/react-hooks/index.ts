@@ -1,12 +1,13 @@
 export {
-  UseState,
-  UseEffect,
-  UseRef,
-  UseMemo,
   UseCallback,
   UseContext,
-  UseReducer,
   UseCustom,
+  UseEffect,
+  UseLayoutEffect,
+  UseMemo,
+  UseReducer,
+  UseRef,
+  UseState,
 } from './basics';
 
 export {

@@ -8,6 +8,7 @@ import {
   UseContext,
   UseReducer,
   UseCustom,
+  UseLayoutEffect,
 } from '../../../modules/react-hooks';
 
 export const hooksBasicsRoutes: RouteProps[] = [
@@ -42,5 +43,9 @@ export const hooksBasicsRoutes: RouteProps[] = [
   {
     path: '/hooks/basics/use-custom',
     component: UseCustom,
+  },
+  {
+    path: '/hooks/basics/use-layout-effect',
+    component: UseLayoutEffect,
   },
 ];
