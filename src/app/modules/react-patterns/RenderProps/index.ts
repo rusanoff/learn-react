@@ -1,0 +1,1 @@
+export { RenderPropsExample } from './RenderProps';
