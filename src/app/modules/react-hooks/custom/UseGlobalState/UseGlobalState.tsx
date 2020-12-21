@@ -21,7 +21,7 @@ function useCustom(this: any) {
     return () => {
       this.listeners = this.listeners.filter((listener: any) => listener !== newListener);
     };
-  }, []);
+  }, [newListener]);
 
   return [this.state, this.actions];
 }
