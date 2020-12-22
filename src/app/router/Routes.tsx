@@ -8,6 +8,7 @@ import {
 import { MainPage } from '../components/MainPage';
 import { hooksBasicsRoutes, hooksCustomRoutes } from './react-hooks';
 import { patternsRoutes } from './react-patterns';
+import { reduxRoutes } from './redux';
 
 const routes: RouteProps[] = [
   {
@@ -18,6 +19,7 @@ const routes: RouteProps[] = [
   ...hooksBasicsRoutes,
   ...hooksCustomRoutes,
   ...patternsRoutes,
+  ...reduxRoutes,
 ];
 
 export const Routes: React.FC = () => {
